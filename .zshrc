@@ -130,7 +130,13 @@ export PATH=$PATH:$HOME/.local/bin
 
 
 
-. ~/.profile # aliases and variables
+
+# alias and variable (no sensitive contain)
+[ -f ~/.profile ] && source ~/.profile
+
+# sensitive private env
+[ -f ~/.private ] && source ~/.private
+
 
 
 # [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
@@ -157,11 +163,4 @@ export LC_ALL=en_US.UTF-8
 export PATH="$PATH:/home/pawan/Android/Sdk/flutter/bin"
 export PATH="$PATH:/home/pawan/Android/Sdk/platform-tools"
 export ANDROID_SDK_ROOT="/home/pawan/Android/Sdk"
-export DB_NAME=gharpay_gonda_01
-export DB_USER=gharpay_gonda_01
-#export DB_TYPE=SQLITE
-export DB_HOST=gharpay.xyz
-export DB_PASSWORD=0rndbytt:gharpay
-export DJANGO_RUN=DEBUG
-export GOOGLE_APPLICATION_CREDENTIALS="/home/pawan/tzu/backend-container/secrets/gharpay-firebase-private-key.json"
 
