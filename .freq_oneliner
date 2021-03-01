@@ -1,0 +1,12 @@
+
+#vim ft=sh
+
+#To Record screen(all windows) using ffmpeg with 0,0 offset and 25fps dimension 1366x768
+ffmpeg -video_size 1366x768 -framerate 25 -f x11grab -i :0.0+0,0 output.mkv
+
+
+#To pixelize image `input.png` using imagemagick convert command 
+convert -scale 10% -scale 1000% input.png output.png
+
+# on android shell  to start portable hotspot
+service call connectivity 24 i32 0 i32 1 i32 0 s16 text > /dev/null
