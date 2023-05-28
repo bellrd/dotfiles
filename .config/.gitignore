@@ -1,15 +1,16 @@
+# Ignore everything
+*
+# Except
 !.gitignore
 !tmux
-!.chromium-flags.conf
+!chromium-flags.conf
 !nvim/
 !wallpaper.jpeg
 !sway
 !wezterm
 !i3status-rust
-!.fontconfig
 !fontconfig
 !.fonts.conf
 !mimeapps.list
 !i3blocks
 !i3
-
