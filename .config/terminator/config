@@ -1,0 +1,26 @@
+[global_config]
+  dbus = False
+  window_state = maximise
+  borderless = True
+  tab_position = hidden
+  inactive_color_offset = 1.0
+[keybindings]
+[profiles]
+  [[default]]
+    background_type = transparent
+    font = Noto Sans Mono 15
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 1000
+    custom_command = tmux
+    use_system_font = False
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+      profile = default
+[plugins]
