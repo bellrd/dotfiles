@@ -1,0 +1,30 @@
+{
+    "workspace.library": [
+        "/home/pawan/.config/nvim",
+        "/home/pawan/.local/share/nvim/lazy/lazy.nvim",
+        "/home/pawan/.local/share/nvim/lazy/lspkind.nvim",
+        "/home/pawan/.local/share/nvim/lazy/cmp-nvim-lsp-signature-help",
+        "/home/pawan/.local/share/nvim/lazy/cmp-cmdline",
+        "/home/pawan/.local/share/nvim/lazy/cmp-path",
+        "/home/pawan/.local/share/nvim/lazy/cmp-buffer",
+        "/home/pawan/.local/share/nvim/lazy/cmp-nvim-lua",
+        "/home/pawan/.local/share/nvim/lazy/cmp-nvim-lsp",
+        "/home/pawan/.local/share/nvim/lazy/nvim-cmp",
+        "/home/pawan/.local/share/nvim/lazy/mason-lspconfig.nvim",
+        "/home/pawan/.local/share/nvim/lazy/mason.nvim",
+        "/home/pawan/.local/share/nvim/lazy/nvim-lspconfig",
+        "/home/pawan/.local/share/nvim/lazy/gitsigns.nvim",
+        "/home/pawan/.local/share/nvim/lazy/rose-pine",
+        "/usr/share/nvim/runtime",
+        "/usr/lib/nvim",
+        "/home/pawan/.local/state/nvim/lazy/readme",
+        "/home/pawan/.local/share/nvim/lazy/cmp-nvim-lsp-signature-help/after",
+        "/home/pawan/.local/share/nvim/lazy/cmp-cmdline/after",
+        "/home/pawan/.local/share/nvim/lazy/cmp-path/after",
+        "/home/pawan/.local/share/nvim/lazy/cmp-buffer/after",
+        "/home/pawan/.local/share/nvim/lazy/cmp-nvim-lua/after",
+        "/home/pawan/.local/share/nvim/lazy/cmp-nvim-lsp/after",
+        "${3rd}/luassert/library",
+        "${3rd}/luv/library"
+    ]
+}

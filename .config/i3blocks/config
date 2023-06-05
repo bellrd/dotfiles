@@ -1,0 +1,88 @@
+
+# i3blocks config file
+#
+# Please see man i3blocks for a complete reference!
+# The man page is also hosted at http://vivien.github.io/i3blocks
+#
+# List of valid properties:
+#
+# align
+# color
+# command
+# full_text
+# instance
+# interval
+# label
+# min_width
+# name
+# separator
+# separator_block_width
+# short_text
+# signal
+# urgent
+
+# Global properties
+#
+# The top properties below are applied to every block, but can be overridden.
+# Each block command defaults to the script name to avoid boilerplate.
+
+separator_block_width=15
+command=bash ~/.scripts/i3blocks/${BLOCK_NAME}
+markup=pango
+
+
+#[battery]
+#label= BAT 
+#interval=60
+
+[memory]
+label= MEM 
+interval=5
+
+[load]
+label= LOAD 
+interval=5
+
+[iface]
+full_text=IFACE ?
+short_text= IFACE
+color=#FF0000
+interval=10
+signal=11
+
+[volume]
+label= VOL 
+interval=once
+signal=10
+
+[date]
+command=date +%d-%B-%Y\ %A\ %I:%M\ %p
+interval=once
+color=#00FFFF
+interval=60
+
+
+
+
+
+# [click]
+# full_text=Click me!
+# command=echo "Got clicked with button $button"
+# color=#F79494
+
+# # Guess the weather hourly
+# [weather]
+# command=curl -Ss 'https://wttr.in?0&T&Q' | cut -c 16- | head -2 | xargs echo
+# interval=3600
+# color=#A4C2F4
+
+# # Query my default IP address only on startup
+# [battery]
+# #command=~/.scripts/i3blocks/battery
+# interval=once
+# color=#91E78B
+
+# # Update time every 5 seconds
+# [time]
+# command=date +%T
+# interval=5

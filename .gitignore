@@ -1,11 +1,10 @@
 # Ignore everything
-*
-
+/*
 # Except
 !.gitignore
-!.config/
-!.zshenv
-!.zshrc
-!.profile
-!.scripts
+!/.config/
+!/.zshenv
+!/.zshrc
+!/.profile
+!/.scripts
 
