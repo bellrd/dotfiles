@@ -10,10 +10,10 @@ export PATH="$PATH:$HOME/.scripts"
 export CHROME_EXECUTABLE=chromium
 export BROWSER=chromium
 export EDITOR=nvim
-export _JAVA_AWT_WM_NONREPARENTING=1
-export PATH=$PATH:/home/pawan/Android/Sdk/emulator
-export PATH=$PATH:/home/pawan/Android/Sdk/cmdline-tools/latest/bin
-export PATH=$PATH:/home/pawan/Android/Sdk/flutter/bin
+export PATH=$PATH:$HOME/Android/Sdk/emulator
+export PATH=$PATH:$HOME/Android/Sdk/cmdline-tools/latest/bin
+export PATH=$PATH:$HOME/Android/Sdk/flutter/bin
+export "_JAVA_AWT_WM_NONREPARENTING"=1
 #export WLR_RENDERER=vulkan #not working for some reason
 
 alias cat="bat"
